@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Graph Point Plotter</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<div id="app"></div>
+</body>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script src="dist/bundle.js"></script>
+<script>
+	$(document).ready(function(){
+		console.info("Thanks for checking out under the hood! If you notice any errors, feel free to submit an issue or a pull request at: https://github.com/katacarbix/plotter");
+
+		$('.modal').modal();
+		
+		$('#export-modal pre').on('mouseup', function(){
+			$(this).select();
+		});
+	});
+</script>
+
+</html>
