@@ -1,6 +1,6 @@
 # Graph Point plotter
 
-http://katacarbix.xyz/plotter
+https://katacarbix.github.io/plotter/
 
 Plot some points on a graph with tons of controls for points and axes.
 
